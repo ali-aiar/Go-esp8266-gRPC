@@ -1,0 +1,6 @@
+syntax = "proto2";
+option go_package = "./pb";
+package pb;
+message TestMessage {
+    required int32 test_number = 1;
+}
